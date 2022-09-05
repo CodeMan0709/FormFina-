@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/index1.html");
 });
 
 app.get("/signup.html", function (req, res) {
